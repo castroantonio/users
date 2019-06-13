@@ -8,32 +8,60 @@ This simple project was made in Java using SpringBoot, Eclipse IDE and Spring To
 It is consists on a REST service that can be used to create, retrive, delete and list all users (Usuarios.java), this way:
 
  - create:
- URL: users
+ 
+ URL: https://users-springboot.herokuapp.com/users
+ 
  method: POST
+ 
  request body: JSON containing user name, for example: {"nome" : "Antonio Castro"}
+ 
  returns: JSON containing user id and name, for example: {"id" : 1, "nome" : "Antonio Castro"} with status CREATED.
  
+ 
+ 
  - retrive:
- URL: users/{id}
+ 
+ URL: https://users-springboot.herokuapp.com/users/{id}
+ 
  method: GET
+ 
  request body: N/A
+ 
  returns: JSON containing user id and name, for example: {"id" : 1, "nome" : "Antonio Castro"} with status OK; or NOT FOUND.
  
+ 
+ 
  - update:
- URL: users
+ 
+ URL: https://users-springboot.herokuapp.com/users
+ 
  method: PUT
+ 
  request body: JSON containing user id and new name, for example: {"id" : 1, "nome" : "Antonio"}
+ 
  returns: JSON containing user id and name, for example: {"id" : 1, "nome" : "Antonio"} with status OK; or NOT FOUND.
+ 
+ 
 
  - delete:
- URL: users/delete/{id}
+ 
+ URL: https://users-springboot.herokuapp.com/users/delete/{id}
+ 
  method: DELETE
+ 
  request body: N/A
+ 
  returns: OK or NOT FOUND.
+ 
+ 
   
  - list all:
- URL: users/list
+ 
+ URL: https://users-springboot.herokuapp.com/users/list
+ 
  method: GET
+ 
  request body: N/A
+ 
  returns: JSON containing user array, for example: [
     {"id": 1, "nome": "Antonio Castro"}, {"id": 2, "nome": "Marisol"}, {"id": 3, "nome": "Mr. Second"}] with status OK.
