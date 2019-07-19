@@ -1,7 +1,7 @@
 # users
 REST application using SpringBoot.
 
-Available at: https://users-springboot.herokuapp.com/users
+Available at: https://users-springboot.herokuapp.com/
 
 This simple project was made in Java using SpringBoot, Eclipse IDE and Spring Tools 4 (aka Spring Tools Suite). The main purpose is to test the advantages of using SpringBoot.
 
