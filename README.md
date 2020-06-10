@@ -1,5 +1,5 @@
 # users
-REST application using SpringBoot.
+REST application using Spring Boot.
 
 Available at: https://users-springboot.herokuapp.com/
 
